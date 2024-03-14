@@ -20,6 +20,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('/test', function(){
     return response(([
-        'message' => 'Testing Llanera'
+        'message' => 'Testing Bilbao-San'
     ]));
 });
